@@ -13,7 +13,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 	<modules>
-	    <module>ConfigLoader</module>
+		<module>ConfigLoader</module>
 		<module>FileSaver</module>
 	</modules>
 
@@ -22,6 +22,13 @@
 			<groupId>org.aeonbits.owner</groupId>
 			<artifactId>owner</artifactId>
 			<version>1.0.10</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
